@@ -14,7 +14,7 @@ class Secsmall
     int k;
     int[] r=new int[n];
     for(int i=0;i<n;i++)
-    {
+  {
       k=1;
       for(int j=0;j<n;j++)
       {
