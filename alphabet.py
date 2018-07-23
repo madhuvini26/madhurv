@@ -18,3 +18,4 @@ for(i=0;i<n;i++)
 printf("\n%d",count-1);
 return 0;
 }
+
