@@ -1,5 +1,6 @@
 #include<stdio.h>
 void main()
+
 {
 int n,i,count=0,count1=0,sum=0,a[10];
 scanf("%d",&n);
@@ -27,7 +28,8 @@ int p=u/count1;
       {
          printf("Yes");
       }
- else{
+ else
+       {
           printf("No");
      }
 }
