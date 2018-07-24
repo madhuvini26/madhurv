@@ -9,15 +9,16 @@ int main()
 	}
 	for(i=0;i<n;i++)
     {
-        for(j=i+1;j<n;j++)
-        {
-        if(a[i]<a[j])
-        {
-          temp=a[i];
-          a[i]=a[j];
-          a[j]=temp;
+     for(j=i+1;j<n;j++)
+     {
+      if(a[i]<a[j])
+      {
+       temp=a[i];
+        a[i]=a[j];
+        a[j]=temp;
         }
-        }  printf("%d\n",a[i]);
+        }  
+	    printf("%d\n",a[i]);
     }
 return 0;
 }
