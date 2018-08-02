@@ -15,3 +15,4 @@ printf("less_even:%d",num-1);
 }
 getch();
 }
+
