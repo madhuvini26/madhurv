@@ -9,12 +9,12 @@ def main():
 	(out,l)=('',[])
 	for i in range(2**n):
 		st=bin(i)
-		for j in range(n-len(st)):
-			out+='0'
-		out+=st
-		print(out)
-		out=''
+for j in range(n-len(st)):
+out+='0'
+out+=st
+print(out)
+out=''
 try:
- 	 main()
+main()
 except:
-  	print('invalid')
+  print('invalid')
