@@ -1,8 +1,7 @@
 def quasipalindome():
 	n=input()
 	l=list(n)
-
-	r=[]
+r=[]
 	rr=[]
 	f=0
 	for i in l:
