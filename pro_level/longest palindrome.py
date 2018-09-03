@@ -24,3 +24,4 @@ n=l-count;
 printf("%d",n);
 return 0;
 }
+
