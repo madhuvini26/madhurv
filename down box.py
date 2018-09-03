@@ -2,6 +2,7 @@ s=input("enter the string")
 l=[]
 s1=""
 s5=set()
+{
 for i in range(97,123):
     s1=s1+chr(i)+" "
 print(s,s1)
@@ -13,3 +14,4 @@ if len(s5)==0:
     print("yes")
 else:
     print("no")
+}
