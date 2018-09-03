@@ -1,11 +1,3 @@
-package mypackage;
-
-import java.util.Scanner;
-
-/**
- *
- * @author Hariharan
- */
 public class LongestIncreasingSubArray {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
